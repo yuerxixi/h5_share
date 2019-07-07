@@ -1,0 +1,99 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	line-height: 15px;
+	color: #000;
+}
+
+.clearfix::after,.clearfix::before {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	clear: both;
+	content:'';
+	display:block;
+}
+input{
+border:0px}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #FFFFFF;
+	font: 12px/23px Verdana, Arial;
+	color: #3E3E3E;
+}
+
+fieldset,
+img {
+	border: 0px;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol,
+ul,
+li {
+	list-style: none outside none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul,
+form {
+	margin: 0px;
+	padding: 0px;
+}

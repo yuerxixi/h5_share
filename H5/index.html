@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- <link rel="stylesheet" href="css/rem.css"> -->
+    <script src="js/rem.js"></script>
+   <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="content">
+            <img src="images/bg.png" alt="">
+            <div class="font1">
+                <p>海量优质货源</p>
+                <span>各地源头女装批发直采，数量更多，质量更好，上新更快！</span>
+            </div>
+            <img src="images/item1.png" alt="" class="item item1">
+            <div class="font2">
+                <p>新增明星店铺</p>
+                <span>精选品质档口，专业挑款，看货拿货先人一步！</span>
+            </div>
+            <img src="images/item2.png" alt="" class="item item2">
+            <div class="font3">
+                <p>公开档口微信</p>
+                <span>直接与老板联系，没有中间商，没有差价，砍价拿货 so easy!</span>
+            </div>
+            <img src="images/item3.png" alt="" class="item item3">
+            <div class="font4">
+                <p>赶紧体验,一起去看看新世界!</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="lib/jQuery/jquery-2.1.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // alert(window.devicePixelRatio);
+        if (window.devicePixelRatio > 1&&window.devicePixelRatio <=2) {
+            var images = $('.content img.item');
+            images.each(function (i) {
+                var lowres = $(this).attr('src');                
+                var highres = lowres.replace(".", "@2x.");
+                $(this).attr('src', highres);
+            });
+        }else if(window.devicePixelRatio >2){
+            var images = $('.content img.item');
+            images.each(function (i) {
+                var lowres = $(this).attr('src');
+                var highres = lowres.replace(".", "@3x.");
+                $(this).attr('src', highres);
+            });
+        }
+    });
+</script>
+
+</html>

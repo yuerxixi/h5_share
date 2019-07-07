@@ -1,0 +1,59 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 7.5rem
+}
+
+.item,
+.font1,
+.font2,
+.font3,.font4{
+    position: absolute;
+}
+
+.font1 {
+    top: 3.85rem;
+    margin: 0 0.6rem 0 0.4rem;
+}
+
+.font2 {
+    top: 16.31rem;
+    margin: 0 0.6rem 0 0.4rem;
+}
+
+.font3 {
+    top: 26.99rem;
+    margin:0 0.6rem 0 0.4rem;
+}
+.font4{
+top: 37.83rem;
+margin:  0 0.8rem;
+}
+p {
+    font-size: 0.48rem;
+    line-height: 0.48rem;
+    color: #FF4B4B;
+    /* font-weight: 900; */
+    margin-bottom: 0.2rem
+}
+
+span {
+    color: black;
+    font-size: 0.28rem;
+    line-height: 0.3rem;
+}
+
+.item1 {
+    top: 5.65rem;
+}
+
+.item2 {
+    top: 17.7rem;
+}
+
+.item3 {
+    top: 28.82rem;
+}
